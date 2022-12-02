@@ -29,7 +29,7 @@ function checkData() {
 
   if (enterUserName === getUserName) {
     if (enterPassword === getPassword) {
-      window.location.href = '../resumes-list.html';
+      window.location.href = '../resume/resumes-list.html';
     } else {
       alert("Wrong password");
     }
